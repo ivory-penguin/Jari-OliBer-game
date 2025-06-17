@@ -20,3 +20,5 @@ func process_inputs():
 	dir = dir.normalized()
 	velocity = dir * MOVE_SPEED
 	move_and_slide()
+	position.x = round(position.x)
+	position.y = round(position.y)
