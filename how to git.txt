@@ -7,3 +7,7 @@ git add .
 git commit -m "some commit message"
 git push -u origin main
 git pull
+
+if you get an error about fast forwarding, run
+git pull --rebase
+to pull the files you do not have on your local copy (shouldn't overwrite your files)
