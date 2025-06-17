@@ -6,9 +6,10 @@ var animation_mode := 0
 var next_frame_time := 0.0
 const ANIMATION_RATE := 0.1
 
-const ATTACK_DURATION := 0.5
+const ATTACK_DURATION := 0.3
 var attack_end_time := 0.0
 var is_attacking = false
+var attack_damage = 50
 
 @onready var main_body = $Main_Body
 

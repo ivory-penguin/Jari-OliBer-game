@@ -24,7 +24,7 @@ texture = ExtResource("2_g2els")
 hframes = 3
 vframes = 3
 
-[node name="Swordlike_Collider" type="Area2D" parent="."]
+[node name="Swordlike_Collider" type="Area2D" parent="." groups=["Player Attacks"]]
 scale = Vector2(1.5, 1.5)
 collision_layer = 2
 collision_mask = 4
@@ -33,3 +33,4 @@ input_pickable = false
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Swordlike_Collider"]
 visible = false
 polygon = PackedVector2Array(0, 0, -14, 4, -14, 11, -12, 18, -7, 22, 0, 24, 7, 22, 12, 17, 14, 11, 14, 4)
+disabled = true

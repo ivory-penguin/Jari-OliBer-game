@@ -4,6 +4,7 @@ extends Node2D
 var on_load = [
 	preload("res://scenes/tiles.tscn"),
 	preload("res://scenes/player.tscn"),
+	preload("res://scenes/basic enemy.tscn")
 ]
 
 func _ready() -> void:
