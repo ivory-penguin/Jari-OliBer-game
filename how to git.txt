@@ -1,1 +1,9 @@
-test
+to set up the repo, run
+git clone https://github.com/ivory-penguin/Jari-OliBer-game
+and then go into the created directory in vscode
+
+then, whenever you are done updating a file, run
+git add .
+git commit -m "some commit message"
+git push -u origin main
+git pull
